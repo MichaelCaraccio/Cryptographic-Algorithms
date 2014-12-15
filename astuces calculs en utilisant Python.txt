@@ -1,0 +1,15 @@
+Ma petite contribution à ce repo...
+Python fait office de bonne calculatrice !
+Ouvrir une console python ou faire un mini script
+Exemple:
+5**3 % 33 = 26 --> correspond à 5 puissance 3 le tout modulo 33
+
+XOR binaire avec Python:
+entrée: bin(0b1000011 ^ 0b1101000)
+sortie: '0b101011'
+
+opérateurs disponibles:
+~ Not
+^ XOR
+| Or
+& And

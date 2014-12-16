@@ -7,7 +7,7 @@ Created on 12 nov. 2014
 @author: mathieu.rosser
 '''
 
-from rsa_diffiehellman.exponentiation_modulaire import expModMethode2
+from RSA_diffiehellman.exponentiation_modulaire import expModMethode2
 
 def diffieHellman(m, p, g, a, b):
     A = expModMethode2(g, a, p)

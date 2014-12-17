@@ -31,18 +31,25 @@ def expModMethode2(a, e, n):
 
 if __name__ == '__main__':
     
-    a, e, n = 5317, 10000, 2119
-    expMod1 = expModMethode1(a, e, n)
-    expMod2 = expModMethode2(a, e, n)
-    print("%d^%d mod %d = %d / %d" %(a, e, n, expMod1, expMod2))
-    
-    a, e, n = 987654321, 123456789, 2038074743
-    expMod1 = expModMethode1(a, e, n)
-    expMod2 = expModMethode2(a, e, n)
-    print("%d^%d mod %d = %d / %d" %(a, e, n, expMod1, expMod2))
-
-    a, e, n = 987654321, 1234567890000000000, 2038074743
-    expMod1 = 0 # expModMethode1(a, e, n)
-    expMod2 = expModMethode2(a, e, n)
-    print("%d^%d mod %d = %d / %d" %(a, e, n, expMod1, expMod2))
+    #a, e, n = 5317, 10000, 2119
+    #expMod1 = expModMethode1(a, e, n)
+    #expMod2 = expModMethode2(a, e, n)
+    #print("%d^%d mod %d = %d / %d" %(a, e, n, expMod1, expMod2))
+    #
+    #a, e, n = 987654321, 123456789, 2038074743
+    #expMod1 = expModMethode1(a, e, n)
+    #expMod2 = expModMethode2(a, e, n)
+    #print("%d^%d mod %d = %d / %d" %(a, e, n, expMod1, expMod2))
+    #
+    #a, e, n = 987654321, 1234567890000000000, 2038074743
+    #expMod1 = 0 # expModMethode1(a, e, n)
+    #expMod2 = expModMethode2(a, e, n)
+    #print("%d^%d mod %d = %d / %d" %(a, e, n, expMod1, expMod2))
+	
+	a = int(input("a: "))
+	e = int(input("e: "))
+	n = int(input("n: "))
+	expMod2 = expModMethode2(a, e, n)
+	
+	print("%d^%d mod %d = %d" % (a, e, n, expMod2))
 
